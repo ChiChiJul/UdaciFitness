@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-native-community/slider": "^3.0.3",
     "expo": "~41.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",

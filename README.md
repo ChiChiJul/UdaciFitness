@@ -42,3 +42,11 @@ This project can be run from a web browser or the Expo client app. You may find 
 - Learn more about [Universal React](https://docs.expo.io/).
 - See what API and components are [available in the React runtimes](https://docs.expo.io/versions/latest/).
 - Find out more about developing apps and websites: [Guides](https://docs.expo.io/guides/).
+
+
+*****
+npm install --global expo-cli
+npm install @react-native-community/slider --save
+yarn add redux react-redux
+yarn add @react-native-async-storage/async-storage
+yarn add udacifitness-calendar

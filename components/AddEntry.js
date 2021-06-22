@@ -75,7 +75,7 @@ class AddEntry extends Component {
 	
 	submit = () => {
 		const key = timeToString()
-		const entry = this.state
+		const entry = [this.state]
 		
 		console.log('in submit. key: ', key)
 		console.log('entry: ', entry)

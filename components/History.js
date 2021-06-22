@@ -5,7 +5,7 @@ import { receiveEntries, addEntry } from '../actions'
 import { timeToString, getDailyReminderValue } from '../utils/helpers'
 import { fetchCalendarResults } from '../utils/api'
 //import UdaciFitnessCalendar from 'udacifitness-calendar-fix'
-import { Agenda } from 'react-native-calendars'
+import { Calendar, CalendarList, Agenda as UdaciFitnessCalendar } from 'react-native-calendars'
 
 class History extends Component {
 	componentDidMount() {
@@ -44,7 +44,7 @@ class History extends Component {
 	render() {
 		const { entries } = this.props
 		return (
-			<Agenda
+			<UdaciFitnessCalendar
 				items={entries}
 				renderItem={this.renderItem}
 				renderEmptyDate={this.renderEmptyDate}
